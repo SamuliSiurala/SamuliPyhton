@@ -1,4 +1,4 @@
-name = "Samuli"
-age = 25
-print("Tervehdys, " + name + " " + str(age) + " vuotta")
+name = input("Anna nimesi: ")
+age = int(input("Anna ikäsi: "))
+
 print("Tervehdys, ", name, age, "vuotta")
