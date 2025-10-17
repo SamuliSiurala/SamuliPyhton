@@ -5,11 +5,20 @@ luvut = [2,3,5,7]
 while True:
     luku = int(input("Anna luku: "))
 
-    for i in range(3):
+    kierros = 0
 
-        if luku % luvut[i] == 0:
+    for testiluku in luvut:
+
+        if luku = testiluku:
             print("Ei ole alkuluku")
             break
-        elif luvut[i] == 5:
+
+        elif luku % testiluku:
             print("Alkuluku")
+            break
+
+        elif kierros == 3:
+            print("Alkuluku")
+
+        kierros += 1
 
