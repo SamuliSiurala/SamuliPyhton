@@ -2,7 +2,9 @@ from operator import truediv
 
 luvut = [2,3,5,7]
 
-while True:
+luku = 99
+
+while luku != 0:
     luku = int(input("Anna luku: "))
 
     kierros = 0
