@@ -9,16 +9,17 @@ while True:
 
     for testiluku in luvut:
 
-        if luku = testiluku:
+        if luku == testiluku:
             print("Alkuluku")
             break
 
         elif luku % testiluku == 0:
-            print("Alkuluku")
+            print("Ei ole alkuluku")
             break
 
         elif kierros == 3:
             print("Alkuluku")
+            break
 
         kierros += 1
 
