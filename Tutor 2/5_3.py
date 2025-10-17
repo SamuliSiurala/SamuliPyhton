@@ -10,10 +10,10 @@ while True:
     for testiluku in luvut:
 
         if luku = testiluku:
-            print("Ei ole alkuluku")
+            print("Alkuluku")
             break
 
-        elif luku % testiluku:
+        elif luku % testiluku == 0:
             print("Alkuluku")
             break
 
