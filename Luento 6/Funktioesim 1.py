@@ -1,8 +1,11 @@
-def terve():
-    print("Tervehdys!")
+def terve(kerrat):
+    for k in range(kerrat):
+        print("Tervehdys!")
     return
 
 #Pääohjelma
 print("Uusi päivä alkaa tervehdyksellä: ")
-terve()
+terve(3)
 print("Jatketaan eteenpäin!")
+terve(5)
+
