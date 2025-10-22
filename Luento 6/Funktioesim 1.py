@@ -1,3 +1,3 @@
 def terve():
-    print("Tervehdys")
+    print("Tervehdys!")
     return
