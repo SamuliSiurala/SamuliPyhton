@@ -1,5 +1,5 @@
 def seven_brothers(lista):
-    #Kirjoita funktion toiminta
+    #järjestetään lista aakkosjärjestykseen
 
 #Pääohjelma
-veljekset = []
+veljekset = ["Juhani", "Lauri", "Aapo", "Timo", "Tuomas", "Eero", "Simeoni"]
