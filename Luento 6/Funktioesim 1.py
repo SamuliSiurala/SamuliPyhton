@@ -1,6 +1,6 @@
-def terve(kerrat):
+def terve(tervehdys, kerrat):
     for k in range(kerrat):
-        print("Tervehdys!")
+        print(tervehdys)
     return
 
 def yhteenlasku(luku1,luku2):
@@ -9,9 +9,9 @@ def yhteenlasku(luku1,luku2):
 
 #Pääohjelma
 print("Uusi päivä alkaa tervehdyksellä: ")
-terve(3)
+terve("Moikka!", 3)
 print("Jatketaan eteenpäin!")
-terve(5)
+terve("Hei hei!", 5)
 yhteenlasku(3,6)
 
 
