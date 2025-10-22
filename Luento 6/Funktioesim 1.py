@@ -3,15 +3,17 @@ def terve(tervehdys, kerrat):
         print(tervehdys)
     return
 
-def yhteenlasku(luku1,luku2):
-    summa = luku1 + luku2
-    return summa
+def yhteenlasku(_luku1,_luku2, _luku3):
+    _summa = _luku1 + _luku2 + _luku3
+    return _summa
 
 #Pääohjelma
-print("Uusi päivä alkaa tervehdyksellä: ")
-terve("Moikka!", 3)
-print("Jatketaan eteenpäin!")
-terve("Hei hei!", 5)
-yhteenlasku(3,6)
+luku1 = int(input("Anna eka luku: "))
+luku2 = int(input("Anna toka luku: "))
+luku3 = int(input("Anna kolmas luku: "))
+
+summa = yhteenlasku(luku1, luku2, luku3)
+print("Lukujen summa on ", summa)
+
 
 
