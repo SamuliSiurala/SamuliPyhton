@@ -4,6 +4,10 @@ def seven_brothers(lista):
 
     #Tulostetaan nimet
     print(lista)
+
+    #Tulostetaan nimet yksitellen
+    for nimi in lista:
+        print(nimi)
     return
 
 #Pääohjelma
