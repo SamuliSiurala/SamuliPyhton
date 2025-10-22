@@ -4,7 +4,7 @@ while True:
     print("Valitse mitä toimintoa haluat käyttää:´\n A: Yhteenlasku \n B: Vähennyslasku"
           "\n C: Kertolasku \n D: Jakolasku")
 
-    valinta = input("Valintasi (A-D): ").upper()
+    valinta = input("Valintasi (A-D), Q lopettaa: ").upper()
 
     #While loopin katkaisu
     if valinta == "Q":
