@@ -1,5 +1,12 @@
 print("-----Tervetuloa käyttämään laskinta!-----")
 
+#Yhteenlasku
+def summa(num1, num2):
+    print("Yhteenlasku tulos on:", num1, num2)
+    return
+
+
+
 while True:
     print("Valitse mitä toimintoa haluat käyttää:´\n A: Yhteenlasku \n B: Vähennyslasku"
           "\n C: Kertolasku \n D: Jakolasku")
