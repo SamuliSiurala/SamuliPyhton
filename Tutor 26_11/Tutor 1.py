@@ -17,4 +17,5 @@ def luvut():
     return luku
 
 # luvut()
-vastaus = luvut()
+luku = luvut()
+print("Viimeinen luku oli", luku)
