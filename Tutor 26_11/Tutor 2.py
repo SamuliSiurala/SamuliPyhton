@@ -8,6 +8,7 @@ if eläin == "kissa" or eläin == "koira":
 
 elif eläin == "ihminen":
     print("Oho!")
+    print("Monta ihmistä?")
 
 else:
     print("Voi ei!")
