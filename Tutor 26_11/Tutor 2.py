@@ -12,4 +12,4 @@ elif eläin == "ihminen":
 else:
     print("Voi ei!")
 
-print("Eläin oli ", eläin, "ja sen nimi oli " + nimi)
+print("Eläin oli " + eläin + " ja sen nimi oli " + nimi)
