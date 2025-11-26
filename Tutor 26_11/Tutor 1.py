@@ -7,8 +7,14 @@ for i in lista:
 
 # while loop
 
-luku = int(input("Anna luku: "))
-
-while luku > 0: # toista niin kauan kun luku on suurempi kuin 0
-    print(luku)
+def luvut():
     luku = int(input("Anna luku: "))
+
+    while luku > 0: # toista niin kauan kun luku on suurempi kuin 0
+        print(luku)
+        luku = int(input("Anna luku: "))
+
+    return luku
+
+# luvut()
+vastaus = luvut()
