@@ -1,8 +1,7 @@
 eläin = input("Mikä eläin?: ")
 
-if eläin == "kissa":
+if eläin == "kissa" or eläin == "koira":
     print("Ok!")
 
-elif eläin == "koira"
-    print("Ok!")
-
+else:
+    print("Voi ei!")
