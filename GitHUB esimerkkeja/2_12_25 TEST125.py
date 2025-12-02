@@ -1,3 +1,4 @@
 hedelmät = "Appelsiini", "Banaani", "Omena"
-print(hedelmät)
+(eka, toka, kolmas) = hedelmät
+print(f"Hedelmiä ovat {toka}, {eka} ja {kolmas}.")
 
