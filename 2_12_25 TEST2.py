@@ -1,4 +1,6 @@
-import.math
+import math
 
+print(f"{'Pii':5s}:{math.pi:10.5f}")
+print(f"{'Neperin luku':12s}:{math.e:10.5f}")
 
 
